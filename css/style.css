@@ -3,14 +3,26 @@
     --footer: #021635;
     --button-color: #8E32C6;
 }
+body{
+    margin: 0 auto;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
 .header{
     background-color: var(--header);
-    width: 1440px;
+    padding-top: 16px;
+    padding-bottom: 17px;
 }
-.logo{
-    
-    
+.header-wrapper{
+    display: flex;
+    align-items: center;
 }
-.section-one{
+.header-list{
+    display: flex;
+}
+.herov{
     background-image: url(../img/Group37\(1\)1-min.png);
 }
