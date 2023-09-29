@@ -27,14 +27,16 @@ body{
 }
 .herov{
     background: url(../img/Group3711-min.png) no-repeat;
-    padding-bottom: 858px;
+    background-size: cover;
+    padding-top: 94px;
+    padding-bottom: 183px;
     color: var(--text-color);
 }
-.section-two{
+.benefits{
     background: url(../img/Group81-min.png) no-repeat;
-    padding-bottom: 606px;
-
-
+    background-size: cover;
+    padding-top: 105px;
+    padding-bottom: 105px;
 }
 .section-list{
     align-items: center;
