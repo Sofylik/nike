@@ -30,3 +30,14 @@ body{
     padding-bottom: 858px;
     color: var(--text-color);
 }
+.section-two{
+    background: url(../img/Group81-min.png) no-repeat;
+    padding-bottom: 606px;
+
+
+}
+.section-list{
+    align-items: center;
+    display: flex;  
+
+}
