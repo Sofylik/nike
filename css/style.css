@@ -40,6 +40,15 @@ body{
 }
 .section-list{
     align-items: center;
-    display: flex;  
-
+    display: flex;
+    border: solid;
+    border-radius: 5px;
+    border-color: #8E32C6;  
+    padding-left: 190px;
+}
+.list:nth-child(1+n3){
+    margin-left: 145px;
+}
+.section-tree{
+    background: url(/img/Group61-min.png);
 }
