@@ -3,11 +3,12 @@
     --footer: #021635;
     --button-color: #8E32C6;
     --text-color: #fff;
+    --nav-color: #C7C7C7;
 
 }
 body{
     margin: 0 auto;
-    font-family: 'Playfair Display', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .container{
     width: 1200px;
@@ -22,14 +23,35 @@ body{
 .header-wrapper{
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .header-list{
     display: flex;
     font-size: 24px;
 }
+.link{
+    margin-left: 29px;
+}
+.lang-list{
+    display: flex;
+}
+.lang-item{
+    margin-left: 10px;
+}
+.header-link{
+    font-size: 24px;
+    font-weight: 300;
+    color: var(--nav-color);
+}
+.header-link:hover,
+.header-link:focus{
+    color: var(--text-color);
+    font-weight: 400;
+}
 .logo-one{
-    font-family: 'PT Serif', sans-serif;
-    font-size: 72px;
+    font-family: 'PT Serif', serif;
+    font-size: 48px;
+    font-weight: 400;
 }
 .herov{
     background: url(../img/Group3711-min.png) no-repeat;
@@ -51,25 +73,32 @@ body{
 }
 .herov-h1{
     font-size: 144px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    font-family: 'Playfair Display', serif;
+    margin-top: 0;
+    margin-bottom: 0;
 }
-
+.herov-span{
+    font-size: 72px;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 12px;
+}
+.herov-blog{
+    font-size: 18px;
+    margin-bottom: 41px;
+}
 .lang{
     color: var(--header);
     margin: 4px;
 }
-.button-one{
+/* .button-one{
     color: var(--text-color);
     background: var(--button-color);
     cursor: pointer;
     border-radius: 10px;
     border: none;
-    font-family: 'Roboto', sans-serif;
     font-size: 24px;
-    margin-top: 19px;
-}
+} */
 .benefits{
     background: url(../img/Group81-min.png) no-repeat;
     background-size: cover;
