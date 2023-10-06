@@ -4,6 +4,7 @@
     --button-color: #8E32C6;
     --text-color: #fff;
     --nav-color: #C7C7C7;
+    --date-color:#D8D8D8;
 
 }
 body{
@@ -101,24 +102,32 @@ body{
     padding-top: 105px;
     padding-bottom: 105px;
 }
-
+.benefits-list{
+    width: 1110px;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 50px;
+    border: 5px solid var(--button-color);
+    margin: 0 auto;
+}
 .background-one{
-    border-radius: 15px;
+
     background: linear-gradient(137deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
     box-shadow: 0px 30px 0px -13px #533978, 0px 14px 0px -5px #7B54B2;
-width: 260px;
+
 }
 .background-two{
-    border-radius: 15px;
     background: linear-gradient(137deg, #FF68B4 0%, #FF45E1 26.04%, #CE3AFF 62.84%, #8961FF 100%);
     box-shadow: 0px 30px 0px -13px #61337C, 0px 14px 0px -5px #9159B1;
-width: 260px;
 }
 .background-three{
-    border-radius: 15px;
     background: linear-gradient(143deg, #FFE128 0%, #FF9B5C 30.21%, #FF8381 63.29%, #FF5489 100%);
     box-shadow: 0px 30px 0px -13px #732F26, 0px 14px 0px -5px #B95A4C;
-    width: 260px;
+}
+.reviwes-item{
+    width: 255px;
+    border-radius: 15px;
+    padding: 49px 10px 29px 18px;
 }
 .reviews{
     background: url(../img/Group61-min.png);
@@ -133,44 +142,39 @@ width: 260px;
     font-family: "Roboto",sans-serif;
 }
 .reviews-text{
-    margin-top: 49px;
     font-size: 24px;
     color: var(--text-color);
-    font-style: normal;
-    line-height: normal;
-    font-weight: 400;
     width: 228px;
 }
+.reviews-time{
+    font-size: 14px;
+    color: var(--date-color);
+    margin-top: 8px;
+}
 .title{
-    display: flex;
-    justify-content: center;
+    text-align: center;
     font-size: 48px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        padding-bottom: 24px;
+    font-weight: 400;
+    margin-bottom: 24px;
 }
 .order{
     background: url(../img/Group21-min.png);
 }
 .quality{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 20px 0;
-    position: relative;
+
 }
-.quality:nth-child(1)::before,
-.quality:nth-child(2)::before{
-    content: '';
-    width: 2px;
-    height: 346px;
-    background-color: var(--text-color);
-    position: absolute;
-    right: -0.5px;
+.two{
+    padding-left: 95px;
+    padding-right: 95px;
+    border-left: 1px solid var(--text-color);
+    border-right: 1px solid var(--text-color);
+    margin-left: 50px;
+    margin-right: 50px;
 }
-.benefits-container{
-    border: solid;
-    padding: 20px;
-    width: 1110px;
+.quality-name{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 400;
+    color: var(--text-color);
 }
