@@ -59,16 +59,11 @@ body{
     padding-top: 94px;
     padding-bottom: 183px;
     color: var(--text-color);
-    height: 858px;
-    display: block;
-    content: '';
-    box-sizing: border-box;
 }
 .herov-text{
     font-size: 18px;
     margin-bottom: 60px;
     width: 588px;
-    height: 84px;
     line-height: normal;
 }
 .herov-h1{
@@ -91,14 +86,15 @@ body{
     color: var(--header);
     margin: 4px;
 }
-/* .button-one{
+.button-one{
     color: var(--text-color);
     background: var(--button-color);
     cursor: pointer;
     border-radius: 10px;
     border: none;
     font-size: 24px;
-} */
+    padding: 20px 61px;
+} 
 .benefits{
     background: url(../img/Group81-min.png) no-repeat;
     background-size: cover;
