@@ -172,10 +172,9 @@ body{
 }
 .order{
     background: url(../img/Group21-min.png);
+    height: 509px;
 }
-.quality{
 
-}
 .two{
     padding-left: 95px;
     padding-right: 95px;
@@ -190,4 +189,31 @@ body{
     font-size: 36px;
     font-weight: 400;
     color: var(--text-color);
+}
+.button-two{
+    color: var(--text-color);
+    background: var(--button-color);
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    font-size: 24px;
+    padding: 20px 61px;
+}
+.order-name{
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    color: var(--text-color);
+    text-align: center;
+}
+.input-one{
+    width: 690px;
+    height: 60px;
+    border-radius: 50px;
+}
+.input{
+    width: 580px;
+    height: 50px;
+    border-radius: 50px;
+    margin-top: 19px;
 }
