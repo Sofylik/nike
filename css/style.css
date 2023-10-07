@@ -151,6 +151,19 @@ body{
     color: var(--date-color);
     margin-top: 8px;
 }
+.reviews-img{
+    display: flex;
+    padding-top: 71px;
+}
+.rev-name{
+    font-size: 14px;
+    padding-left: 5px;
+    padding-top: 71px;
+}
+.rev-when{
+    font-size: 12px;
+    padding-left: 5px;
+}
 .title{
     text-align: center;
     font-size: 48px;
